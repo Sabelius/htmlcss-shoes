@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight:bolder;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    float: right;
+}
+.image-container{
+    position: relative;
+}
+.shoes{
+    position: absolute;
+    top: 50;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.yellow-text{
+    color: yellow;
+}
+.green-text{
+    color: green;
+}
+
